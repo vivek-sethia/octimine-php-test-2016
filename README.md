@@ -47,4 +47,8 @@ This is also part of the test. =)
 
 Please do it in no more than a day.
 
+### Questions?
+
+If you have any question drop a line to Fabio Vedovelli <vedovelli@octimine.com>
+
 ## Good luck!
