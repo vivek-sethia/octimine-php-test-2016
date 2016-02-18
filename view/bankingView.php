@@ -25,7 +25,7 @@ class BankingView {
 	private function renderTop(){
 		$this->html .= "<html>";
 		$this->html .= "<head>";
-		$this->html .= "<link rel='stylesheet' type='text/css' href='../libs/bootstrap.min.css' />";
+		$this->html .= "<link rel='stylesheet' type='text/css' href='libs/bootstrap.min.css' />";
 		$this->html .= "<style>
 							table{
 								border : 1px solid #ccc;
@@ -57,11 +57,11 @@ class BankingView {
 	private function renderBottom(){
 		$this->html .= "</div>";
 		$this->html .= "</body>";
-		$this->html .= "<script src='../libs/jquery.min.js'></script>";
-		$this->html .= "<script src='../libs/jquery.DataTables.min.js'></script>";
-		$this->html .= "<script src='../libs/bootstrap.min.js'></script>";
-		$this->html .= "<script src='../libs/dataTables.bootstrap.min.js'></script>";
-		$this->html .= "<script src='../app.js'></script>";
+		$this->html .= "<script src='libs/jquery.min.js'></script>";
+		$this->html .= "<script src='libs/jquery.DataTables.min.js'></script>";
+		$this->html .= "<script src='libs/bootstrap.min.js'></script>";
+		$this->html .= "<script src='libs/dataTables.bootstrap.min.js'></script>";
+		$this->html .= "<script src='app.js'></script>";
 		$this->html .= "</html>";
 	}
 	
@@ -76,7 +76,7 @@ class BankingView {
 			$this->renderTop();
 			
 			$this->html .= "<h1>Customer Records</h1>";
-			$this->html .= "<a href='bankingCtrl.php?page_mode=".PAGE_MODE_ADD."' class='pull-right'>Add More</a>";
+			$this->html .= "<a href='?page_mode=".PAGE_MODE_ADD."' class='pull-right'>Add More</a>";
 			$this->html .= "<form id='customer' method='post' >";
 			$this->html .= "<input id='operation_id' name='operation_id' type='hidden'/>";
 			$this->html .= "<input id='page_mode' name='page_mode' type='hidden'/>";

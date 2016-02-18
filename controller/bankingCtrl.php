@@ -1,7 +1,7 @@
 <?php 
-require_once('../common/constants.php');
-require_once('../view/bankingView.php');
-require_once('../model/bankingModel.php');
+require_once('common/constants.php');
+require_once('view/bankingView.php');
+require_once('model/bankingModel.php');
 
 /**
  * Class BankingController. 

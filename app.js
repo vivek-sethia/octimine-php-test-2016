@@ -31,7 +31,7 @@ var bankingApp = function() {
 			$('#customer').submit();
 		});
 		$(document).on('click','.back',function(){
-			window.location.href='bankingCtrl.php'
+			window.location.href='#';
 		});
 		$(document).on('click','#update',function(){
 			$('#page_mode').val(5);
